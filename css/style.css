@@ -78,10 +78,8 @@ nav a.active {
 main {
   padding: 0 2em 2em 2em;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
   justify-items: center;
-  align-items: center;
   grid-template-areas:
             "head head head"
             "one two three"
@@ -90,10 +88,8 @@ main {
             "img blog3 blog3"
             "res1 res2 res3";
 }
-/*-- Media Queries
 @media screen and (max-width: 767px) {
-  main { grid-template-columns: 1fr;
-         grid-template-areas:
+  main { grid-template-areas:
             "head"
             "one"
             "two"
